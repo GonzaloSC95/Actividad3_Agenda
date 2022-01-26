@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task Master</string>
+    <string name="mis_tareas">TASKS MASTER</string>
+    <string name="background">BackGround</string>
+    <string name="label2">ITT</string>
+    <string name="nombre">Name</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="done">Done</string>
+    <string name="new_task_text">New task</string>
+</resources>

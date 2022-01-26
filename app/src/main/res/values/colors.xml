@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grisGradiente">#212121</color>
+    <color name="blancoGradiente">#FFFFFFFF</color>
+    <color name="negroGradiente">#FF000000</color>
+    <color name="amarilloOscuro">#f49a05</color>
+    <color name="grisClaro">#a0a0a0</color>
+    //////////////////////////////////////////
+    <color name="negroIOS">#000000</color>
+    <color name="grisIOS">#313131</color>
+</resources>

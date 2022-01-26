@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:title="add_task"
+        android:id="@+id/new_task"
+        android:icon="@drawable/mas"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="exit"
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"/>
+
+</menu>

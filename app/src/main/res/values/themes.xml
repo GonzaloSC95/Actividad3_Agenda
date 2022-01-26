@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/amarilloOscuro</item>
+        <item name="colorPrimaryVariant">@color/negroIOS</item>
+        <item name="colorOnPrimary">@color/grisIOS</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/amarilloOscuro</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:buttonBarNeutralButtonStyle">@color/material_on_background_disabled</item>
+    </style>
+
+    <style name="textoAmarilloCiudad">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/amarilloOscuro</item>
+        <item name="fontFamily">@font/cityscape</item>
+    </style>
+
+
+</resources>
