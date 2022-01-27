@@ -71,16 +71,19 @@ public class LoginActivity extends AppCompatActivity {
     public void crearCuenta(View view) {
         String nombre = name.getText().toString();
         String password = passwd.getText().toString();
+        ///////////////////////////////////////////////////
+        String contraseniaHasheada = "";
+        if (!password.isEmpty()) {
+            contraseniaHasheada = contraseniaHash(password);
+        }
         /////////////////////////////////////////////////////
-        if (db.nuevoUsuario(nombre, contraseniaHash(password)) == false
+        if (db.nuevoUsuario(nombre, contraseniaHasheada) == false
                 && nombre.isEmpty() == false
                 && password.isEmpty() == false) {
             //////////////////////////////////////////////////////////////
             Toast.makeText(this, "That user name\n" +
                     "is already using\nby someone", Toast.LENGTH_LONG).show();
-        } else if (db.nuevoUsuario(nombre, contraseniaHash(password)) == false
-                || nombre.isEmpty()
-                || password.isEmpty()) {
+        } else if (nombre.isEmpty() || password.isEmpty()) {
             /////////////////////////////////////////////////////
             Toast aviso = Toast.makeText(this, "You must put a name\n" +
                     "and a password", Toast.LENGTH_LONG); //Toast.LENGTH_SHORT

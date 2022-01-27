@@ -141,8 +141,7 @@ public class ControladorDB extends SQLiteOpenHelper {
             //CERRAMOS LA BBDD
             db.close();
             return false;
-        } else if (nombre.isEmpty()
-                || psw.isEmpty()) {
+        } else if (nombre.isEmpty() || psw.isEmpty()) {
             db.close();
             return false;
         } else {
