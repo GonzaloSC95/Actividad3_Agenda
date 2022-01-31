@@ -1,6 +1,7 @@
 package es.gonzalo.actividad1_agenda;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 import android.view.animation.Animation;
@@ -20,6 +21,7 @@ public class SplashActivity extends AppCompatActivity implements Animation.Anima
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         ////////////////////////
         initComponets();
         setAnims();

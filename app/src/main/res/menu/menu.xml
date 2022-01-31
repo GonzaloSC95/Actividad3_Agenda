@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
-    <item
-        android:title="add_task"
-        android:id="@+id/new_task"
-        android:icon="@drawable/mas"
-        app:showAsAction="always"/>
 
     <item
-        android:title="exit"
+        android:id="@+id/new_task"
+        android:icon="@drawable/mas"
+        android:title="add_task"
+        app:showAsAction="always" />
+
+    <item
         android:id="@+id/exit"
         android:icon="@drawable/exit"
-        app:showAsAction="always"/>
+        android:title="exit"
+        app:showAsAction="always" />
 
 </menu>

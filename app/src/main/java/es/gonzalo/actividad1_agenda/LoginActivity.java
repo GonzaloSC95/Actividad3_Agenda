@@ -1,6 +1,7 @@
 package es.gonzalo.actividad1_agenda;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
@@ -33,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         ////////////////////////////
         db = new ControladorDB(this);
         ////////////////////////////
